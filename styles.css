@@ -1,11 +1,13 @@
 /* General Styles */
 body {
     margin: 0;
-      font-family: "Montserrat", serif;
+    font-family: "Montserrat", serif;
     background-color: #758657;
     color: #000000;
     line-height: 1.6;
     justify-content: center;
+    padding: 0;
+    line-height: 1.6;
 }
 
 /* Header */
@@ -14,6 +16,7 @@ body {
     color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
+    font-size:30px;
 }
 
 .main-header .nav-links {
@@ -216,10 +219,25 @@ ul {
     align-items: center;
   }
 }
-
 .img-content {
   justify-content: center;
     align-items: center;
   display: block;
   padding: 1rem 0;
+
 }
+@media (max-width: 768px) {
+  main {
+      flex-direction: column;
+  }
+
+  .content, aside {
+      width: 100%;
+  }
+
+  nav ul li {
+      display: block;
+      margin-bottom: 10px;
+  }
+ }
+~
