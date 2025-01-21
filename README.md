@@ -1,2 +1,2 @@
 # Illustration-portfolio
- A simple illustration portfolio  website made with html and css
+ A simple illustratin portfolio  website made with html and css
